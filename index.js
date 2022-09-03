@@ -37,7 +37,7 @@ const categoryClick = async (data = '08') => {
         creatNews(data.data);
     }
     catch (error) {
-        // console.log(error);
+        console.log(error);
     }
 
 }
